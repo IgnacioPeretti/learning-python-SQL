@@ -15,13 +15,19 @@ class Celular:                # Clase
     
     def atender(self):
         print(f"Atendiste un llamado desde tu: {self.modelo}")
+        
+    def foto(self):
+        print(f"Tomaste una fotografia desde tu: {self.marca} {self.modelo}")
+        
 
 celular1 = Celular("Apple", " Iphone 13 PRO", "60MP")
 celular2 = Celular("Samsumg", "S23", "50MP")
 
 
-celular1.llamar()
+celular2.llamar()
 
-celular2.atender()
+celular1.atender()
 
-celular2.cortar()
+celular1.cortar()
+
+celular2.foto()
